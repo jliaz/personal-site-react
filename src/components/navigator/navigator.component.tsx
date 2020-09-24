@@ -57,7 +57,7 @@ const Navigator = (props: NavigatorProps): React.ReactElement => {
                         <TimelineDot color={item === currentItem ? 'primary' : 'grey'} />
                         {i === len - 1 ? null : <TimelineConnector/>}
                     </TimelineSeparator>
-                    { showItems ? <TimelineContent style={{color: "white"}}>{item}</TimelineContent> : null}
+                    { showItems ? <TimelineContent style={{color: "white"}}>{`${item.toLowerCase()}`}</TimelineContent> : null}
                     
                 </TimelineItem>
             </div>

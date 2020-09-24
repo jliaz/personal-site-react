@@ -35,11 +35,11 @@ const ImageBlock = (props: ImageBlockProps) => {
                     spacing={2}
                 >
                     { image && 
-                        <Grid item xs={12} sm={6}>
+                        <Grid item xs={6} sm={3}>
                             <CardMedia
                                 className={classes.cover}
                                 component="img"
-                                image={require(`../../assets/nebula.jpg`)}
+                                image={require(`../../assets/sketch.png`)}
                                 title="Head shot"
                             >
                             </CardMedia>

@@ -43,7 +43,7 @@ const Menu = (): React.ReactElement => {
                             </Button>
                         </Grid>
                         <Grid item>
-                            <Button variant="outlined" className={classes.resumeButton} onClick={() => window.open('../../assets/Julia Zhang 2020 Resume.pdf')}>
+                            <Button variant="outlined" className={classes.resumeButton} onClick={() => window.open('https://docdro.id/S4P3Qnw')}>
                                 RESUME
                             </Button>
                         </Grid>
